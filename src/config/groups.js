@@ -395,11 +395,11 @@ export const GROUP_CONFIGS = {
       showWelcomeImage: false
     }
   },
-  woman: {
-    id: 'woman',
+  women: {
+    id: 'women',
     name: 'AWSKRUG Women in Cloud 소모임',
     title: 'AWSKRUG Women in Cloud 소모임 출석체크',
-    logo: '/images/organization_logo/woman.png',
+    logo: '/images/organization_logo/women.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
     subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
     theme: {
