@@ -212,7 +212,7 @@ export const GROUP_CONFIGS = {
     id: 'game',
     name: 'AWSKRUG 게임 기술 소모임',
     title: 'AWSKRUG 게임 기술 소모임 출석체크',
-    logo: '/images/organization_logo/game.png',
+    logo: '/images/organization_logo/gametech.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
     subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
     theme: {
