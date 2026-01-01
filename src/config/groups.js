@@ -6,7 +6,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 서버리스 소모임 출석체크',
     logo: '/images/organization_logo/logo.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#FF9900',
       secondaryColor: '#232F3E',
@@ -25,7 +25,7 @@ export const GROUP_CONFIGS = {
     title: 'AUSG 빅챗 출석체크',
     logo: '/images/organization_logo/ausg.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#4CAF50',
       secondaryColor: '#388E3C',
@@ -43,7 +43,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 자격증 소모임 출석체크',
     logo: '/images/organization_logo/cert.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -61,7 +61,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG AI Engineering 소모임 출석체크',
     logo: '/images/organization_logo/ai.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -78,7 +78,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 아키텍처 소모임 출석체크',
     logo: '/images/organization_logo/architecture.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -95,7 +95,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 비기너 소모임 출석체크',
     logo: '/images/organization_logo/beginners.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -112,7 +112,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 부산 소모임 출석체크',
     logo: '/images/organization_logo/busan.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -129,7 +129,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 컨테이너 소모임 출석체크',
     logo: '/images/organization_logo/container.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -146,7 +146,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 데이터 소모임 출석체크',
     logo: '/images/organization_logo/data.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -163,7 +163,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG DeepRacer 소모임 출석체크',
     logo: '/images/organization_logo/deepracer.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -180,7 +180,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG DevOps 소모임 출석체크',
     logo: '/images/organization_logo/devops.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -197,7 +197,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 을지로 소모임 출석체크',
     logo: '/images/organization_logo/euljiro.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -214,7 +214,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 게임 기술 소모임 출석체크',
     logo: '/images/organization_logo/gametech.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -231,7 +231,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 구로 디지털 소모임 출석체크',
     logo: '/images/organization_logo/gudi.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -248,7 +248,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 핸즈온 소모임 출석체크',
     logo: '/images/organization_logo/handson.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -265,7 +265,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG ios 소모임 출석체크',
     logo: '/images/organization_logo/ios.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -282,7 +282,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG IoT 소모임 출석체크',
     logo: '/images/organization_logo/busan.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -299,7 +299,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 마곡 소모임 출석체크',
     logo: '/images/organization_logo/magok.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -316,7 +316,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 네트워크 소모임 출석체크',
     logo: '/images/organization_logo/network.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -333,7 +333,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 판교 소모임 출석체크',
     logo: '/images/organization_logo/pangyo.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -350,7 +350,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 플랫폼 엔지니어링 소모임 출석체크',
     logo: '/images/organization_logo/platform.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -367,7 +367,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 보안 소모임 출석체크',
     logo: '/images/organization_logo/security.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -384,7 +384,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG 성수 소모임 출석체크',
     logo: '/images/organization_logo/seongsu.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
@@ -401,7 +401,7 @@ export const GROUP_CONFIGS = {
     title: 'AWSKRUG Women in Cloud 소모임 출석체크',
     logo: '/images/organization_logo/women.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용됩니다.',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
       primaryColor: '#2196F3',
       secondaryColor: '#1976D2',
