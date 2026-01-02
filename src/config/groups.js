@@ -210,8 +210,8 @@ export const GROUP_CONFIGS = {
   },
   game: {
     id: 'game',
-    name: 'AWSKRUG 게임 기술 소모임',
-    title: 'AWSKRUG 게임 기술 소모임 출석체크',
+    name: 'AWSKRUG 게임 테크 소모임',
+    title: 'AWSKRUG 게임 테크 소모임 출석체크',
     logo: '/images/organization_logo/gametech.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
     subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
@@ -400,6 +400,23 @@ export const GROUP_CONFIGS = {
     name: 'AWSKRUG Women in Cloud 소모임',
     title: 'AWSKRUG Women in Cloud 소모임 출석체크',
     logo: '/images/organization_logo/women.png',
+    description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
+    theme: {
+      primaryColor: '#2196F3',
+      secondaryColor: '#1976D2',
+      logoWidth: '250px',
+      logoMargin: '0 0 2rem 0'
+    },
+    features: {
+      showWelcomeImage: false
+    }
+  },
+  frontend: {
+    id: 'frontend',
+    name: 'AWSKRUG 프론트엔드 소모임',
+    title: 'AWSKRUG 프론트엔드 소모임 출석체크',
+    logo: '/images/organization_logo/frontend.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
     subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
