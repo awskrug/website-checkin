@@ -6,21 +6,25 @@ export default function CheckInPage() {
   const { groupCode = 'sls', eventCode = 'test' } = useParams();
   const config = getGroupConfig(groupCode);
 
+  // showWelcomeImage 기본값은 true
+  const showWelcomeImage = config.features?.showWelcomeImage !== false;
+  const welcomeImage = config.features?.welcomeImage || '/images/welcome.png';
+
   return (
-    <div 
+    <div
       className="container"
       style={{
         '--primary-color': config.theme.primaryColor,
         '--secondary-color': config.theme.secondaryColor
       }}
     >
-      <img 
-        src={config.logo} 
+      <img
+        src={config.logo}
         alt={`${config.name} 로고`}
         className="logo"
-        style={{ 
+        style={{
           width: config.theme.logoWidth,
-          margin: config.theme.logoMargin 
+          margin: config.theme.logoMargin
         }}
       />
       <h1 className="title">{config.title}</h1>
@@ -28,7 +32,15 @@ export default function CheckInPage() {
         {config.description}<br />
         {config.subDescription}
       </p>
-      
+
+      {showWelcomeImage && (
+        <img
+          src={welcomeImage}
+          alt="환영 이미지"
+          className="welcome-image"
+        />
+      )}
+
       <CheckInForm eventCode={eventCode} groupCode={groupCode} />
     </div>
   );

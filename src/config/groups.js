@@ -13,9 +13,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   sls: {
     id: 'sls',
@@ -30,12 +28,9 @@ export const GROUP_CONFIGS = {
       logoWidth: '200px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: true,
-      welcomeImage: '/images/welcome.png'
-    }
+    features: {}
   },
-  
+
   ausg: {
     id: 'ausg',
     name: 'AUSG 빅챗',
@@ -49,11 +44,9 @@ export const GROUP_CONFIGS = {
       logoWidth: '300px',
       logoMargin: '3rem 0 3rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
-  
+
   cert: {
     id: 'cert',
     name: 'AWSKRUG 자격증 소모임',
@@ -67,9 +60,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
 
   ai: {
@@ -85,9 +76,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   architecture: {
     id: 'architecture',
@@ -102,9 +91,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   beginners: {
     id: 'beginners',
@@ -119,9 +106,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   busan: {
     id: 'busan',
@@ -136,9 +121,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   container: {
     id: 'container',
@@ -153,9 +136,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   data: {
     id: 'data',
@@ -170,9 +151,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   devops: {
     id: 'devops',
@@ -187,9 +166,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   euljiro: {
     id: 'euljiro',
@@ -204,9 +181,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   game: {
     id: 'game',
@@ -221,9 +196,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   gudi: {
     id: 'gudi',
@@ -238,9 +211,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   handson: {
     id: 'handson',
@@ -255,9 +226,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   iot: {
     id: 'iot',
@@ -272,9 +241,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   magok: {
     id: 'magok',
@@ -289,9 +256,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   network: {
     id: 'network',
@@ -306,9 +271,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   pangyo: {
     id: 'pangyo',
@@ -323,9 +286,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   platform: {
     id: 'platform',
@@ -340,9 +301,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   security: {
     id: 'security',
@@ -357,9 +316,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   seongsu: {
     id: 'seongsu',
@@ -374,9 +331,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   women: {
     id: 'women',
@@ -391,9 +346,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   },
   frontend: {
     id: 'frontend',
@@ -408,9 +361,7 @@ export const GROUP_CONFIGS = {
       logoWidth: '250px',
       logoMargin: '0 0 2rem 0'
     },
-    features: {
-      showWelcomeImage: false
-    }
+    features: {}
   }
 };
 
