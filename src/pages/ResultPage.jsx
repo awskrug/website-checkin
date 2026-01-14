@@ -32,10 +32,10 @@ export default function ResultPage() {
       }}
     >
       <div className="success-container">
-        {config.features.showWelcomeImage && (
-          <img 
-            src={config.features.welcomeImage} 
-            alt="Welcome" 
+        {config.features?.showWelcomeImage !== false && (
+          <img
+            src={config.features?.welcomeImage || '/images/welcome.png'}
+            alt="Welcome"
             className="welcome-image"
           />
         )}
