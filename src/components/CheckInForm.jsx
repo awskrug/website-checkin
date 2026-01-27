@@ -5,6 +5,7 @@ import { API_CONFIG } from '../config/api';
 export default function CheckInForm({ eventCode, groupCode }) {
   const [phoneNumber, setPhoneNumber] = useState('');
   const [loading, setLoading] = useState(false);
+  const [infoLoading, setInfoLoading] = useState(false);
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
@@ -36,7 +37,9 @@ export default function CheckInForm({ eventCode, groupCode }) {
       navigate(`/${groupCode}/${eventCode}/result`, {
         state: {
           name: data.name,
-          count: data.count
+          count: data.count,
+          checkinCountInfo: data.checkin_count_info,
+          isCheckin: true
         }
       });
 
@@ -48,11 +51,60 @@ export default function CheckInForm({ eventCode, groupCode }) {
     }
   };
 
+  const handleCheckInfo = async () => {
+    if (!phoneNumber) {
+      setError('핸드폰 번호를 입력해주세요.');
+      return;
+    }
+
+    setError('');
+    setInfoLoading(true);
+
+    try {
+      const params = new URLSearchParams({
+        phone: phoneNumber,
+        slug: groupCode
+      });
+
+      const response = await fetch(
+        `${API_CONFIG.BASE_URL}${API_CONFIG.ENDPOINTS.CHECKIN_INFO}?${params}`,
+        {
+          method: 'GET',
+          headers: {
+            'Accept': 'application/json'
+          }
+        }
+      );
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.message || '출석 정보를 찾을 수 없습니다.');
+      }
+
+      // 결과 페이지로 이동 (조회 모드)
+      navigate(`/${groupCode}/${eventCode}/result`, {
+        state: {
+          checkinCountInfo: data,
+          isCheckin: false
+        }
+      });
+
+    } catch (err) {
+      console.error('Error:', err);
+      setError(err.message || '출석 정보를 찾을 수 없습니다.');
+    } finally {
+      setInfoLoading(false);
+    }
+  };
+
   const handlePhoneChange = (e) => {
     // 숫자만 입력 가능
     const value = e.target.value.replace(/[^0-9]/g, '');
     setPhoneNumber(value);
   };
+
+  const isLoading = loading || infoLoading;
 
   return (
     <>
@@ -67,16 +119,26 @@ export default function CheckInForm({ eventCode, groupCode }) {
           value={phoneNumber}
           onChange={handlePhoneChange}
           required
-          disabled={loading}
+          disabled={isLoading}
         />
-        <button type="submit" className="button" disabled={loading}>
+        <button type="submit" className="button" disabled={isLoading}>
           <span className={`button-text ${loading ? 'loading' : ''}`}>
             출석체크
           </span>
           {loading && <div className="spinner" />}
         </button>
+        <button
+          type="button"
+          className="button button-secondary"
+          onClick={handleCheckInfo}
+          disabled={isLoading}
+        >
+          <span className={`button-text ${infoLoading ? 'loading' : ''}`}>
+            내 출석 정보 조회
+          </span>
+          {infoLoading && <div className="spinner" />}
+        </button>
       </form>
     </>
   );
 }
-

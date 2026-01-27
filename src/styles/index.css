@@ -160,3 +160,102 @@ body {
   margin: 20px 0;
 }
 
+.checkin-count-message {
+  color: #333;
+  font-size: 1.1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.checkin-count-message strong {
+  color: var(--primary-color, #d86513);
+  font-weight: 700;
+}
+
+/* Secondary Button */
+.button-secondary {
+  background-color: #6c757d;
+}
+
+.button-secondary:hover:not(:disabled) {
+  background-color: #5a6268;
+}
+
+/* Stats Container */
+.stats-container {
+  width: 100%;
+  max-width: 340px;
+  margin: 1.5rem auto;
+}
+
+.stats-section {
+  margin-bottom: 1.5rem;
+}
+
+.stats-section-title {
+  font-size: 0.9rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.stat-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  border: 2px solid #e9ecef;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stat-card:active {
+  transform: scale(0.98);
+}
+
+.stat-card-highlight {
+  background: var(--primary-color, #d86513);
+  border-color: transparent;
+  color: white;
+}
+
+.stat-card-highlight .stat-label {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.stat-card-large {
+  grid-column: span 2;
+  padding: 2rem 1rem;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.stat-card-highlight .stat-value {
+  color: white;
+}
+
+.stat-value-large {
+  font-size: 4rem;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: #666;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
