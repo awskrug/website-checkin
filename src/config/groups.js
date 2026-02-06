@@ -363,6 +363,21 @@ export const GROUP_CONFIGS = {
     },
     features: {}
   },
+  incheon: {
+    id: 'incheon',
+    name: 'AWSKRUG 인천 소모임',
+    title: 'AWSKRUG 인천 소모임 출석체크',
+    logo: '/images/welcome.png',
+    description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
+    theme: {
+      primaryColor: '#2196F3',
+      secondaryColor: '#1976D2',
+      logoWidth: '250px',
+      logoMargin: '0 0 2rem 0'
+    },
+    features: {}
+  },
   kiro: {
     id: 'kiro',
     name: 'Kiro 한국 사용자 모임',
