@@ -232,7 +232,7 @@ export const GROUP_CONFIGS = {
     id: 'iot',
     name: 'AWSKRUG IoT 소모임',
     title: 'AWSKRUG IoT 소모임 출석체크',
-    logo: '/images/organization_logo/busan.png',
+    logo: '/images/organization_logo/iot.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
     subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
