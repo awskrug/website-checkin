@@ -393,7 +393,7 @@ export const GROUP_CONFIGS = {
     },
     features: {}
   },
-  kiro: {
+  sbg: {
     id: 'sbg',
     name: 'AWS Student Builder Group',
     title: 'AWS Student Community Day 2026',
