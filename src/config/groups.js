@@ -397,7 +397,7 @@ export const GROUP_CONFIGS = {
     id: 'sbg',
     name: 'AWS Student Builder Group',
     title: 'AWS Student Community Day 2026',
-    logo: '/images/organization_logo/SBG.png',
+    logo: '/images/organization_logo/SBG-white.png',
     description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
     subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
     theme: {
