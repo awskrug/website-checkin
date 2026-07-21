@@ -407,6 +407,21 @@ export const GROUP_CONFIGS = {
       logoMargin: '0 0 2rem 0'
     },
     features: {}
+  },
+  'asbg-snu': {
+    id: 'asbg-snu',
+    name: 'AWS Student Builder Group at SNU',
+    title: 'AWS Student Builder Group at SNU 출석체크',
+    logo: '/images/organization_logo/asbg-snu.png',
+    description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
+    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
+    theme: {
+      primaryColor: 'rgb(58, 150, 237)',
+      secondaryColor: '#a77eee',
+      logoWidth: '250px',
+      logoMargin: '0 0 2rem 0'
+    },
+    features: {}
   }
 };
 
