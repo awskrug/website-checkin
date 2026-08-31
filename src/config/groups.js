@@ -34,10 +34,10 @@ export const GROUP_CONFIGS = {
   ausg: {
     id: 'ausg',
     name: 'AUSG 빅챗',
-    title: 'AUSG 빅챗 출석체크',
-    logo: '/images/organization_logo/ausg.png',
-    description: '출석체크를 위해 등록하신 핸드폰 번호를 입력해주세요!',
-    subDescription: '제출하신 번호는 출석 체크 용도로만 사용되며, 단방향 해시로 저장됩니다.',
+    title: 'AUSGCON 2026; CHALLENGE',
+    logo: '/images/organization_logo/ausgcon.png',
+    description: 'AUSGCON에 오신 여러분 환영합니다!',
+    subDescription: '제출하신 번호는 체크인 용도로 사용됩니다.',
     theme: {
       primaryColor: '#4CAF50',
       secondaryColor: '#388E3C',
